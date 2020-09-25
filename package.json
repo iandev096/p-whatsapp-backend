@@ -1,0 +1,20 @@
+{
+  "name": "my-whatsapp-backend",
+  "version": "1.0.0",
+  "main": "server.js",
+  "author": "iandev096 <iandev096@gmail.com>",
+  "description": "This is the backend for my custom whatsapp",
+  "type": "module",
+  "scripts": {
+    "test": "echo ",
+    "start": "node server.js"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "firebase-admin": "^9.2.0",
+    "mongoose": "^5.10.5",
+    "pusher": "^3.0.1"
+  }
+}
